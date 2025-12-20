@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, "public"))); // serve index.html
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "Rahul@123", // replace with your MySQL password
+  password: "", // replace with your MySQL password
   database: "civic"
 });
 
